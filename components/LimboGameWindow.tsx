@@ -1,3 +1,4 @@
+import Image from "next/image";
 const LimboGameWindow = () => {
   return (
     <div className="mx-10 my-20">
@@ -67,12 +68,7 @@ const LimboGameWindow = () => {
           <div>C</div>
           <div>D</div>
         </div>
-        <div>
-          <img
-            src="https://stake.com/_app/immutable/assets/stake-logo-navy.32Fmztj5.svg"
-            alt="stake Logo"
-          />
-        </div>
+        <div></div>
         <div className="text-[#B1BAD3]">Fairness</div>
       </div>
     </div>
